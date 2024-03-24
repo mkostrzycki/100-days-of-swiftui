@@ -1,0 +1,20 @@
+```swift
+enum UserError: Error {
+    case badID, networkFailed
+}
+
+func getUser(id: Int) throws -> String {
+    throw UserError.networkFailed
+}
+
+if let user = try? getUser(id: 23) {
+    print("User: \(user)")
+}
+```
+
+We can also use nil coalescing operator
+```swift
+let user = (try? getUser(id: 23)) ?? "Anonymous"
+print(user)
+```
+
