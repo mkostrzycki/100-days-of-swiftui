@@ -16,6 +16,6 @@ If you were going for length conversion you might have:
 
 So, if you chose meters for source unit and feet for output unit, then entered 10, you’d see 32.81 as the output.
 
-Challenge solved in repository -> https://github.com/mkostrzycki/100dos-UnitsConverter
+Challenge solved in repository -> https://github.com/mkostrzycki/100dos-OwnProject01-UnitsConverter
 
 Tip: Swift have build in conversion -> https://www.hackingwithswift.com/example-code/system/how-to-convert-units-using-unit-and-measurement

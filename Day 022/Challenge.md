@@ -4,4 +4,4 @@
 
 **Note:** That last one takes a little more thinking than the others. A good place to start would be to add a second `alert()` modifier watching a different Boolean property, then connect its button to a `reset()`method to set the game back to its initial state.
 
-Challenge solved in repository -> https://github.com/mkostrzycki/100dos-GuessTheFlag
+Challenge solved in repository -> https://github.com/mkostrzycki/100dos-Project02-GuessTheFlag
