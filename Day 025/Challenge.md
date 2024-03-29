@@ -17,4 +17,4 @@ To solve this challenge you’ll need to draw on skills you learned in tutorials
 5. The important part is making three buttons that respond to the player’s move: Rock, Paper, or Scissors.
 6. Use the `font()` modifier to adjust the size of your text. If you’re using emoji for the three moves, they also scale. **Tip:** You can ask for very large system fonts using `.font(.system(size: 200))` – they’ll be a fixed size, but at least you can make sure they are nice and big!
 
-Challenge solved in repository -> ???
+Challenge solved in repository -> https://github.com/mkostrzycki/100dos-OwnProject02-RockPaperScissorsTraining
