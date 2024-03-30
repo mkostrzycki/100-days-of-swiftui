@@ -18,3 +18,8 @@ To solve this challenge you’ll need to draw on skills you learned in tutorials
 6. Use the `font()` modifier to adjust the size of your text. If you’re using emoji for the three moves, they also scale. **Tip:** You can ask for very large system fonts using `.font(.system(size: 200))` – they’ll be a fixed size, but at least you can make sure they are nice and big!
 
 Challenge solved in repository -> https://github.com/mkostrzycki/100dos-OwnProject02-RockPaperScissorsTraining
+
+Hints:
+- Start off with the simplest logic you can: three buttons, each with logic that says “the player tapped rock, the player was trying to win, and the app chose scissors, so add 1 point.”
+- Once you have that working, look for a way to simplify your logic such as an array of which items beat each move. For example, if your moves array was `["Rock", "Paper", "Scissors"]` your array of winning moves would be `["Paper", "Scissors", "Rock"]`.
+- You don’t need to add graphics if you don’t want to; just some text views and buttons is enough. Why not try emoji?
